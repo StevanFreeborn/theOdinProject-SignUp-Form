@@ -43,12 +43,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 4rem 2rem;
+  padding: 0 2rem 4rem 2rem;
 }
 
 .heading-container>p,
 .heading-container em {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .heading-container>p:last-child {
@@ -56,7 +57,7 @@ body {
 }
 
 #sign-up-form {
-  flex: 3;
+  flex: 4;
 }
 
 .form-top {
@@ -140,7 +141,7 @@ body {
   display: flex;
   flex: 2;
   align-items: flex-end;
-  padding-top: 4rem;
+  padding-top: 7.5rem;
   justify-content: center;
   width: 100%;
 }
@@ -168,7 +169,7 @@ body {
 .attribution-container {
   display: flex;
   align-items: flex-end;
-  flex: 3;
+  flex: 5;
   justify-content: center;
 }
 
@@ -202,6 +203,10 @@ body {
     align-items: center;
     padding-top: 3rem;
     padding-bottom: 1rem;
+  }
+
+  .heading-container {
+    padding-top: 4rem;
   }
 
   .form-row {
