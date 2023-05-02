@@ -122,6 +122,15 @@ body {
   outline: none;
 }
 
+.error {
+  border: 1px solid red;
+}
+
+#passwordError {
+  color: red;
+  font-size: 0.75rem;
+}
+
 .sign-up-button {
   color: #ffffff;
   background-color: #3b5c90;
